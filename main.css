@@ -1,0 +1,33 @@
+#canvas {
+    width: 1840px;
+    height: 920px;
+    background-color:dodgerblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: "stats fishing upgrades";
+}
+
+#fishing {
+    grid-area: fishing;
+    border-style: solid;
+    border-color: greenyellow;
+    border-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    text-align: center;
+}
+
+#upgrades {
+    grid-area: upgrades;
+    border-style: solid;
+    border-color: greenyellow;
+    border-width: 2px;
+}
+
+#stats {
+    grid-area: stats;
+    border-style: solid;
+    border-color: greenyellow;
+    border-width: 2px;
+}
